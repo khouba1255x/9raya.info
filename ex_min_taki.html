@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Inscription pro max</title>
+</head>
+<body>
+
+	<h2> Donner les information suivante : </h2>
+
+<!-- nom et prenom et email -->
+	<form name="formule" >
+		<p> nom et prenom:<input type="text" name="nom">
+			email: <input type="email" name="email">
+		</p>
+
+<!-- sexe -->
+		<p> sexe: <input type="radio" name="sexe"> fille
+			 	  <input type="radio" name="sexe"> garçon
+		</p>
+
+<!-- les loisirs -->
+		<p> Qulles sont vos loisirs: 
+				<input type="checkbox" name="Lecture"> Lecture
+				<input type="checkbox" name="Musique"> Musique
+				<input type="checkbox" name="Voyager"> Voyager
+				<input type="checkbox" name="Autre"> 
+				Autre
+		</p>
+
+<!-- votre sport -->
+		<p> Sectionner votre sport preferee: 
+				<select name="sport">
+					<option value="Foot">Foot</option>
+					<option value="Basket">Basket</option>
+					<option value="Hand">Hand</option>
+					<option value="Tenis">Tenis</option>
+					<option value="Volley">Volley</option>
+				</select>
+		</p>
+
+<!-- commantaire -->
+		<p> Donner votre commantaire :
+			<textarea name="commantaire"  rows="2" cols="20"> </textarea> 
+		</p>
+
+<!-- envoyer ou annuler -->
+		<p> <input type="submit" name="Envoyer" value="Envoyer">
+			<input type="reset" name="Annuler" value="Annuler">
+		</p>
+	</form>
+
+</body>
+</html>
